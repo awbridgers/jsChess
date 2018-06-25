@@ -1,4 +1,6 @@
-
+html, body {
+  overflow:hidden;
+}
 #board{
   margin: auto;
   width: 500px;
@@ -24,11 +26,5 @@
     height: auto;
     margin: auto;
   }
-  body{
-    height: 100%;
-    overflow: hidden;
-    width: 100%;
-    position: fixed;
-}
-  }
+  
 }

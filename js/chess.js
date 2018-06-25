@@ -1,7 +1,4 @@
-$(document).on("touchmove", function(event) {
-  event.preventDefault();
-  event.stopPropagation();
-});
+
 
 
 var board,
