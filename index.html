@@ -11,11 +11,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.2/chess.js"></script>
     <script src="./js/chessboard-0.3.0.min.js"></script>
     <script>
-    $(window).bind('touchmove',
-      function(e) {
-        e.preventDefault();
-      }    
-    );
+      document.body.addEventListener('touchmove', function(event) {
+        event.preventDefault();
+      }, false); 
     </script>
 
 
