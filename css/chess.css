@@ -12,10 +12,10 @@
 
 #newGameButton{
   height: 50px;
-  width: 100px;
+  width: 150px;
   border-radius: 8px;
   border-color: black;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 @media screen and (max-device-width: 667px){
