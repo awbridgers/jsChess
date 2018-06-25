@@ -4,10 +4,16 @@
     <link rel="stylesheet" href="./css/chessboard-0.3.0.min.css">
     <link rel= 'stylesheet' href = './css/chess.css'>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-    <script src="http://code.jquery.com/ui/1.8.21/jquery-ui.min.js"></script>
-    <script src="jquery.ui.touch-punch.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.2/chess.js"></script>
     <script src="./js/chessboard-0.3.0.min.js"></script>
+    <script>
+      //attempt to stop mobile scrolling
+      $(document.body).on("touchmove", function(event) {
+        event.preventDefault();
+        event.stopPropagation();
+      });
+</script>
+
   </head>
   <body>
     <div id = 'board'></div>
