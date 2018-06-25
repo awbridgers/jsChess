@@ -1,8 +1,16 @@
+$(document).on("touchmove", function(event) {
+  event.preventDefault();
+  event.stopPropagation();
+});
+
+
 var board,
   game = new Chess(),
   statusEl = $('#status'),
   fenEl = $('#fen'),
   pgnEl = $('#pgn');
+
+
 
 const newGame = () => {
     board,
