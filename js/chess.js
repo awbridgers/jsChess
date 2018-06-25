@@ -4,6 +4,14 @@ var board,
   fenEl = $('#fen'),
   pgnEl = $('#pgn');
 
+const newGame = () => {
+    board,
+    game = new Chess(),
+    statusEl = $('#status'),
+    fenEl = $('#fen'),
+    pgnEl = $('#pgn');
+    board = ChessBoard('board', cfg);
+}
 // do not pick up pieces if the game is over
 // only pick up pieces for the side to move
 const onDragStart = function(source, piece, position, orientation) {
