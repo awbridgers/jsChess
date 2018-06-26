@@ -26,8 +26,8 @@ html, body {margin: 0; padding: 0; overflow: hidden;}
   transform: translate(-50%, 0);
 }
 
-@media screen and (max-device-width: 667px){
-  
+@media screen and (max-device-width: 667px) and (width: 375px){
+
   .wrapper {
     position: fixed;
     overflow: hidden;
@@ -44,4 +44,21 @@ html, body {margin: 0; padding: 0; overflow: hidden;}
     height: auto;
   }
 
+}
+@media screen and (max-device-width: 667px) and (width 667px){
+  .wrapper {
+    position: fixed;
+    overflow: hidden;
+    width: 100vw;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .newGame{
+
+  }
+  #board{
+    margin: auto;
+    height: 100%;
+    width: auto;
+  }
 }
