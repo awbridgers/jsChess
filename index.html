@@ -10,12 +10,13 @@
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.2/chess.js"></script>
     <script src="./js/chessboard-0.3.0.min.js"></script>
+    <script>
+     const blockMove = (e) => e.preventDefault();
+    </script>
 
   </head>
-  <body>
-    <script>
-    document.ontouchmove = function(e) {e.preventDefault()};
-    </script>
+  <body ontouchmove = 'blockMove(e)'>
+
     <div id = 'board'></div>
     <script src = './js/chess.js'></script>
     <div class = 'newGame'>
