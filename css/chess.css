@@ -1,18 +1,21 @@
 html, body {margin: 0; padding: 0; overflow: hidden;}
 #board{
   margin: auto;
-  width: 500px;
+  width: 95%;
+  height: auto;
 }
 
 .newGame{
-  margin: auto;
+  position: absolute;
+  left: 50px;
+  top: 50px;
   text-align: center;
   padding-top: 25px;
 }
 
 #newGameButton{
-  height: 50px;
-  width: 150px;
+  height: 100px;
+  width: 200px;
   border-radius: 8px;
   border-color: black;
   font-size: 20px;
@@ -22,10 +25,11 @@ html, body {margin: 0; padding: 0; overflow: hidden;}
   position: fixed;
   overflow: hidden;
   width: 660px;
-  background: blue;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
 @media screen and (max-device-width: 667px){
-  
+
 
 }
