@@ -25,11 +25,15 @@ html, body {margin: 0; padding: 0; overflow: hidden;}
   position: fixed;
   overflow: hidden;
   width: 660px;
+  height: auto;
   left: 50%;
   transform: translate(-50%, 0);
 }
 
 @media screen and (max-device-width: 667px){
+  body{
+    background: blue;
+  }
   .wrapper {
     position: fixed;
     overflow: hidden;
