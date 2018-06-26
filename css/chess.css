@@ -18,13 +18,18 @@ html, body {margin: 0; padding: 0; overflow: hidden}
   font-size: 20px;
 }
 
+.wrapper {
+  position: fixed;
+  overflow: hidden;
+  text-align: center;
+}
+
 @media screen and (max-device-width: 667px){
   #board{
     width: 100%;
     height: auto;
     margin: auto;
-    overflow: auto;
-    -webkit-overflow-scrolling: touch;
+
   }
 
 }
