@@ -30,6 +30,17 @@ html, body {margin: 0; padding: 0; overflow: hidden;}
 }
 
 @media screen and (max-device-width: 667px){
-
+  .wrapper {
+    position: fixed;
+    overflow: hidden;
+    width: 100vw;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .newGame{
+    margin: auto;
+    text-align: center;
+    padding-top: 25px;
+  }
 
 }
