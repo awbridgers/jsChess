@@ -6,9 +6,7 @@ html, body {margin: 0; padding: 0; overflow: hidden;}
 }
 
 .newGame{
-  position: absolute;
-  left: 50px;
-  top: 50px;
+  
   text-align: center;
   padding-top: 25px;
 }
@@ -38,9 +36,7 @@ html, body {margin: 0; padding: 0; overflow: hidden;}
     transform: translate(-50%, 0);
   }
   .newGame{
-    margin: auto;
-    text-align: center;
-    padding-top: 25px;
+
   }
 
 }
