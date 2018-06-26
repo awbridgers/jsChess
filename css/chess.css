@@ -1,5 +1,7 @@
-body{
-  -webkit-overflow-scrolling: touch;
+html,
+body {
+  position: fixed;
+  overflow: hidden;
 }
 #board{
   margin: auto;
