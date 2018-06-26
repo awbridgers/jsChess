@@ -32,7 +32,7 @@ html, body {margin: 0; padding: 0; overflow: hidden;}
 
 @media screen and (max-device-width: 667px){
   body{
-    background: blue;
+    height: 100vh;
   }
   .wrapper {
     position: fixed;
