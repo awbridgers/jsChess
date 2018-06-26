@@ -1,8 +1,4 @@
-html,
-body {
-  position: fixed;
-  overflow: hidden;
-}
+
 #board{
   margin: auto;
   width: 500px;
