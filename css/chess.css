@@ -1,4 +1,4 @@
-html, body {margin: 0; padding: 0; overflow: hidden}
+html, body {margin: 0; padding: 0; overflow: hidden;}
 #board{
   margin: auto;
   width: 500px;
@@ -21,7 +21,8 @@ html, body {margin: 0; padding: 0; overflow: hidden}
 .wrapper {
   position: fixed;
   overflow: hidden;
-  text-align: center;
+  width: 660px;
+  background: blue;
 }
 
 @media screen and (max-device-width: 667px){
