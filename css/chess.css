@@ -1,7 +1,7 @@
 html, body {margin: 0; padding: 0; overflow: hidden;}
 #board{
   margin: auto;
-  width: 625px;
+  width: 400px;
   height: auto;
 }
 
@@ -26,7 +26,7 @@ html, body {margin: 0; padding: 0; overflow: hidden;}
   transform: translate(-50%, 0);
 }
 
-@media screen and (max-device-width: 667px) and (orientation: portrait){
+/* @media screen and (max-device-width: 667px) and (orientation: portrait){
 
   .wrapper {
     position: fixed;
@@ -61,4 +61,4 @@ html, body {margin: 0; padding: 0; overflow: hidden;}
     height: 95%;
     width: auto;
   }
-}
+} */
