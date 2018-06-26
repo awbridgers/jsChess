@@ -26,11 +26,6 @@ html, body {margin: 0; padding: 0; overflow: hidden;}
 }
 
 @media screen and (max-device-width: 667px){
-  #board{
-    width: 100%;
-    height: auto;
-    margin: auto;
-
-  }
+  
 
 }
